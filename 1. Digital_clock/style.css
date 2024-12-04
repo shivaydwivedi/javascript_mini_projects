@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+.clock-container {
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3b3f46;
+}
+
+#clock {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
